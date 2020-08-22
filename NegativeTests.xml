@@ -1,0 +1,13 @@
+<suite name="NegativeTests">
+    <test name="NegativeTests">
+        <classes>
+            <class name="tests.AddToCartAndWishListTest">
+                <methods>
+                    <include name="checkWarningWindowWhenAddItemToWishListWithoutRegistration"/>
+                </methods>
+            </class>
+            <class name="tests.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>

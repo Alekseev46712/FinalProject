@@ -1,0 +1,17 @@
+<suite name="PositiveTests">
+    <test name="PositiveTests">
+        <classes>
+            <class name="tests.AddToCartAndWishListTest">
+                <methods>
+                    <include name="checkAddToCart"/>
+                </methods>
+            </class>
+            <class name="tests.AddCountryToShipTest">
+            </class>
+            <class name="tests.SearchTest">
+            </class>
+            <class name="tests.SortingAndFilterTest">
+            </class>
+        </classes>
+    </test>
+</suite>
